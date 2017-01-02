@@ -1,0 +1,24 @@
+import os
+os.chdir("/home/rai/Desktop/intro. al analisis de datos/tarea 2")
+Dcal=os.listdir("/home/rai/Desktop/intro. al analisis de datos/tarea 2/calibraciones")
+def od(n):
+	dat=[]
+	os.chdir("/home/rai/Desktop/intro. al analisis de datos/tarea 2/calibraciones")
+	dato=open(Dcal[n],"r")
+	os.chdir("/home/rai/Desktop/intro. al analisis de datos/tarea 2")
+	contenido= dato.readlines()
+	for i in range(4,len(contenido)-1):
+		P=contenido[i].split("\t")
+		P.pop(0)
+		for e in range(len(P)):
+			P[e]=P[e].replace("\n","")
+			if P[e]=="":
+				P.pop(e)
+		
+
+#				P[e].replace("\n","")
+		print(P)
+		dat.append(P)
+	return dat
+a= input("archivo:  ")
+print (od(a))
