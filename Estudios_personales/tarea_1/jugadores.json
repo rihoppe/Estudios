@@ -1,0 +1,55 @@
+{
+   "3": {
+      "medallas": {
+         "1": false,
+         "2": false,
+         "3": false,
+         "4": false,
+         "5": false,
+         "6": false,
+         "7": false,
+         "8": false
+      },
+      "contrasena": "culiao",
+      "dinero": 1000,
+      "progradex": {},
+      "nombre": "dante"
+   },
+   "2": {
+      "medallas": {
+         "8": false,
+         "7": false,
+         "1": false,
+         "6": false,
+         "5": false,
+         "2": false,
+         "3": false,
+         "4": false
+      },
+      "contrasena": "hola",
+      "dinero": 1000,
+      "progradex": {
+         "3": "capturado"
+      },
+      "nombre": "pepe"
+   },
+   "1": {
+      "medallas": {
+         "8": true,
+         "7": true,
+         "1": true,
+         "6": true,
+         "5": true,
+         "2": true,
+         "3": true,
+         "4": true
+      },
+      "contrasena": "italia",
+      "dinero": 5000,
+      "progradex": {
+         "2": "visto",
+         "1": "capturado"
+      },
+      "nombre": "rai"
+   }
+}
